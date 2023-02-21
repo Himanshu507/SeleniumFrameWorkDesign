@@ -49,7 +49,7 @@ public class BaseTest extends DataReader {
 
 	public WebDriver intializeDriver() throws IOException {
 
-		Properties prop = new Properties();
+		Properties prop = new Properties(); //Here we declare variable name is Properties
 		FileInputStream stream;
 		stream = new FileInputStream(System.getProperty("user.dir")
 				+ "//src//main//java//rahulshettyacademy//resources//GloblaData.properties");
